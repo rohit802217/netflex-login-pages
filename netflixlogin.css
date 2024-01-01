@@ -1,0 +1,128 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+ background: linear-gradient(rgb(110, 100, 100) ,transparent),
+ url(https://assets.nflxext.com/ffe/siteui/vlv3/ab4b0b22-2ddf-4d48-ae88-c201ae0267e2/0efe6360-4f6d-4b10-beb6-81e0762cfe81/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_small.jpg);     
+     width: 100vw;
+    height: 100vh;
+    
+     background: cover;
+     display: flex;
+     justify-content: center; 
+ }
+section{
+       width:100vw;
+      height:100vh;
+      display:flex;
+     align-items: center;
+    justify-content: center; 
+      
+   
+}
+#box1::placeholder{
+     background-color:red;
+
+}
+#box1{
+     display:block;
+     background:black;
+     width: 450px;
+     height: auto;
+     padding: 40px 20px;
+     border-radius: 10px 10px 10px 10px;
+   }
+#box1 h1{
+     color:white;
+     font-size:35px;
+     font-weight: 500; 
+     margin-bottom: 30px;
+}
+#box1 p{
+     color: #b3b6b9;
+     width: 80%;
+     margin: 5px 0px 20px 0px;
+     
+}
+#box1 label{
+     display:inline-block;
+     color: rgb(241, 241, 248);
+     margin-bottom: 3px;
+      
+
+}
+h1{
+     color: red;
+     margin-top: 0px;
+     font-size: 50px;
+
+     margin: 30px 0px 0px 30px;
+ 
+}
+#box1 input{
+     display: inline;
+     background-color: white;
+     width: 80%;
+     height: 50px;
+     margin-bottom:  10px;
+     border:solid 1px #3b9af8;
+     border-radius: 7px;
+     margin-bottom: 30px;
+
+}
+#box1 input[type="checkbox"]{
+      display: inline-block;
+     width: 20px;
+     height: 20px;
+      
+}
+#a1{
+     display:inline-block ;
+     justify-content:space-around ;
+     margin: 0px 0px 0px 80px;
+     color: white;
+     font-size: large;
+
+
+
+}
+ 
+#box1 button{
+     display: block;
+     
+     width: 80%;
+     height: 50px;
+     margin: 25px 0px;
+     border:none;
+     border-radius: 7px;
+     font-size: 22px;
+     font-weight: 500;
+     color: white;
+     background-color:#3b9af8 ;
+
+}
+#box1 button:hover{
+background-color: #3bf8ac;
+}
+.form-links {
+ width: 80%;
+ display: flex;
+ justify-content: space-between;     
+
+}
+.form-links span{
+     color: rgb(27, 27, 26);
+     font-size: 15px;
+
+}
+.form-links span a{
+     color: white;
+}
+.form-links a{
+     text-decoration: none;
+     color: #515268;
+     font-size: 15px;
+}
